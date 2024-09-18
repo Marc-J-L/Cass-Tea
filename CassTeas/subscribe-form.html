@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Shawnelle McNichols">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/dist/css/custom.css">
+    <script src="subscribe-form.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logoicon.png">
+    <title>Subscribe</title>
+    <style>
+        form {
+            margin: auto;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        input[type="submit"],
+        select {
+            width: 100%;
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            margin-top: 5px;
+        }
+
+        .navbar-brand img {
+            margin-left: 12px;
+        }
+
+        .gift-option-block {
+            padding-left: 10px;
+            margin-bottom: 5px;
+            height: 30px;
+            background-color: #dfdfdf;
+        }
+
+        .bi {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="cart" viewBox="0 0 16 16">
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+        </symbol>
+      </svg>
+      <div class="container border">
+        <div class="row">
+    
+          <!-- NAV BAR-->
+    
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+    
+              <a class="navbar-brand" href="main_sm.html">
+                <img src="images/nav-logo.png" alt="Logo-CassTeas" title="Logo-CassTeas" width="150">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                aria-controls="#offcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas">
+    
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav flex-grow-1 justify-content-between">
+                    <li class="nav-item"><a class="nav-link " href="main_sm.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="our-tea.html">Our Teas</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="subscribe-form.html">Subscribe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="wellness.html">Wellness</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">
+                        <svg class="bi" width="24" height="24">
+                          <use xlink:href="#cart" />
+                        </svg>
+                      </a></li>
+                  </ul>
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Fr</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">En</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+    
+          </nav>
+    
+        </div>
+        <div class="row" id="line-t"></div>
+        <!--Main-->
+        <main class="row" id="main-content">
+            <div class="section-header text-center">
+                <br>
+                <h1>Subscribe</h1>
+                <br>
+                <p>Join the Cass' Teas Subscription Box and embark on a journey of discovery through the world of
+                    artisanal
+                    teas.<br>
+                    Each month, you'll receive a thoughtfully curated selection of our finest teas, handpicked to
+                    delight
+                    your senses and elevate your tea-drinking experience.
+                </p>
+            </div>
+
+            <div class="text-justify p-5">
+                <hr>
+                <ol>
+                    <li>Monthly Subscription:
+                        <ul>
+                            <li>Price: $25/month</li>
+                            <li>Receive a new selection of teas every month,
+                                featuring a variety of blends and flavors to suit your palate.</li>
+                        </ul>
+                    </li>
+                    <li>Quarterly Subscription:
+                        <ul>
+                            <li>Price: $70/quarter (Save 5%)</li>
+                            <li>Enjoy a curated box of teas delivered to your door every
+                                three months, providing a longer exploration of our tea offerings.</li>
+                        </ul>
+                    </li>
+                    <li>Annual Subscription:
+                        <ul>
+                            <li>Price: $260/year (Save 10%)</li>
+                            <li>Commit to a year of tea discovery and receive quarterly
+                                shipments packed with our finest teas, plus exclusive perks and
+                                surprises.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <hr>
+            </div>
+
+            <div class="row g-0 border rounded  flex-sm-row mb-4 shadow-sm ">
+                <div class="col-auto d-none d-lg-block">
+                    <img src="images/pexels-anna-pou-8330249.jpg" alt="man-pouring-teas" width="400">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+
+                    <form id="subscription" method="post" autocapitalize="words" action="#">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th id="subscription-plan">Monthly Subscription</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span id="total"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="contents"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <label for="subscription-type">Choose a Subscription Plan:</label>
+                        <select id="subscription-type" name="subscription" size="1" onchange="calcSubTotal()">
+                            <option value="0">Select</option>
+                            <option value="25">Monthly Subscription - $25/month</option>
+                            <option value="70">Quarterly Subscription - $70/quarter (Save 5%)</option>
+                            <option value="260">Annual Subscription - $260/year (Save 10%)</option>
+                        </select>
+
+                        <label>What kind of tea are you looking forward to?</label>
+
+                        <input type="radio" class="btn-check" name="type" id="option1" onchange="modContent()">
+                        <label class="btn btn-outline-secondary btn-sm" for="option1">Random</label>
+
+                        <input type="radio" class="btn-check" name="type" id="option2" onchange="modContent()">
+                        <label class="btn btn-outline-secondary btn-sm" for="option2">Black teas</label>
+
+                        <input type="radio" class="btn-check" name="type" id="option3" onchange="modContent()">
+                        <label class="btn btn-outline-secondary btn-sm" for="option3">Green teas</label><br>
+
+                        <label for="teas">What is your favourite from Cass' Teas?</label>
+                        <select id="teas" name="teas" size="3">
+                            <option value="white">Blueberry Bliss</option>
+                            <option value="black">Earl Grey Lavender</option>
+                            <option value="herbal">Genmaicha Toasted Rice</option>
+                            <option value="green">Golden Milk Chai</option>
+                            <option value="other">Other (Please specify)</option>
+                        </select>
+
+                        <div class="gift-option-block">
+                            <label for="gift-option">
+                                <input type="checkbox" class="check" id="gift-option" value="4.99"
+                                    onclick="calcSubTotal()">
+                                This subscription box is a gift.
+                            </label>
+                        </div>
+                        <span id="giftSelected"></span>
+                        <input type="submit" class="btn btn-secondary btn-sm" id="submit-subscription"
+                            value="Add to cart">
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="text-justify">
+                <h4 class="mb-0">Give the Gift of Tea</h4>
+                <p>Share the love of tea with friends and family by gifting a Cass' Teas Subscription Box.<br>
+                    Perfect for tea enthusiasts, curious beginners, or anyone in need of a little extra joy in their
+                    lives.
+                </p>
+                <h5>What makes it a gift?</h5>
+                <p>
+                    A Cass' Teas gift subscription typically includes all the features and benefits of a regular
+                    subscription, but with the
+                    added convenience and personal touch of being a gift. It's a hassle-free way to spread the love of
+                    tea and create lasting memories.
+                </p>
+            </div>
+        </main>
+        <!--Footer-->
+        <div class="row" id="line-b">
+            <p></p>
+        </div>
+
+        <footer>
+            <div class="row  text-light" id="nav-b">
+                <div class="col-xl-3 justify-content-center mt-4">
+                    <p style="color: black;">&copy; 2024. Team6 All Rights Reserved.</p>
+                </div>
+                <div class="col-xl-8" id="navbar-button">
+                    <ul class="nav justify-content-center  mt-3">
+                        <li class="nav-item"><a href="main_sm.html" class="nav-link text-dark">Home</a></li>
+                        <li class="nav-item"><a href="our-tea.html" class="nav-link text-dark">Our Teas</a></li>
+                        <li class="nav-item"><a href="subscribe-form.html" class="nav-link text-dark">Subscribe</a>
+                        </li>
+                        <li class="nav-item"><a href="wellness.html" class="nav-link text-dark">Wellness</a></li>
+                        <li class="nav-item"><a href="about-us.html" class="nav-link text-dark">About Us</a></li>
+                        <li class="nav-item"><a href="contact-us.html" class="nav-link text-dark">Contact Us</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-xl-1" id="navbar-button-i">
+                    <ul class="col-xl-4 justify-content-center list-inline d-flex mt-4">
+                        <li class="ms-3"><a class="text-body-secondary " href="https://about.instagram.com/"
+                                target="_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/"
+                                target="_blank"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/?lang=en-ca"
+                                target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

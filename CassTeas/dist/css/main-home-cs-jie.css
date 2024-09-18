@@ -1,0 +1,100 @@
+#nav-b {
+  height: 80px;
+  background-color: #bebebe;
+}
+
+#right-b {
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+#line-b {
+  height: 2px;
+  background-color: #fff;
+}
+
+#line-t {
+  height: 3px;
+  background-color: #cca4c5;
+}
+
+#navbar-t {
+  height: 60px;
+  text-align: right;
+  line-height: 60px;
+}
+
+#navbar-t a {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav-b a {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo-t {
+  height: 90px;
+}
+
+#main-content {
+  height: 700px;
+  background-color: #ececec;
+}
+
+nav {
+  float: right;
+}
+
+a:hover {
+  transform: scale(1.3);
+  font-weight: bold;
+}
+
+img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#logo {
+  height: 150%;
+  padding-left: 50px;
+}
+
+.lang {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: rgb(200, 200, 200);
+}
+
+#main-content {
+  height: 700px;
+}
+
+#label-t {
+  display: flex;
+}
+
+.label {
+  display: flex;
+  margin: 0 auto;
+  height: 350px;
+}
+
+.text-tea {
+  display: flex;
+  clear: both;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: larger;
+  justify-content: center;
+}
+
+.totea {
+  text-decoration: none;
+  color: #272727;
+}/*# sourceMappingURL=main-home-cs-jie.css.map */

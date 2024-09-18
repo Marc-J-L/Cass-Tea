@@ -1,0 +1,72 @@
+Subscribe Page
+
+
+At Cass' Teas, we believe in the power of connection. Join our vibrant community of tea lovers from around the globe, where you can share your passion and embark on tea adventures together. Whether you're a seasoned connoisseur or new to the world of tea, there's a place for you in our community.
+
+
+Make your selection to get yourself started.
+
+Certainly! Creating a subscription box for Cass' Teas can be a great way to offer customers a curated selection of teas on a regular basis. Here's a suggested subscription box structure:
+
+**Cass' Teas Subscription Box**
+
+**Description:**
+Join the Cass' Teas Subscription Box and embark on a journey of discovery through the world of artisanal teas. Each month, you'll receive a thoughtfully curated selection of our finest teas, handpicked to delight your senses and elevate your tea-drinking experience.
+
+**Subscription Options:**
+
+1. **Monthly Subscription:**
+   - Price: $25/month
+   - Receive a new selection of teas every month, 
+   featuring a variety of blends and flavors to suit your palate.
+
+2. **Quarterly Subscription:**
+   - Price: $70/quarter (Save 5%)
+   - Enjoy a curated box of teas delivered to your door every 
+   three months, providing a longer exploration of our tea offerings.
+
+3. **Annual Subscription:**
+   - Price: $260/year (Save 10%)
+   - Commit to a year of tea discovery and receive quarterly 
+   shipments packed with our finest teas, plus exclusive perks and 
+   surprises.
+
+**What's Included:**
+- A rotating selection of Cass' Teas signature blends, seasonal favorites, and limited-edition releases.
+- Expertly curated teas sourced from around the world, featuring a diverse range of flavors and profiles.
+- Tasting notes and brewing instructions to enhance your tea-drinking experience.
+- Surprise gifts and special treats in every box, including tea accessories, samples, and exclusive discounts.
+
+**Benefits:**
+- Convenience: Experience the joy of discovering new teas without leaving the comfort of your home.
+- Variety: Explore a diverse range of flavors and blends, curated by tea experts.
+- Savings: Enjoy discounted pricing and exclusive perks with our subscription plans.
+- Flexibility: Easily manage your subscription online, with options to pause, skip, or cancel anytime.
+
+**How It Works:**
+1. Choose your subscription plan and sign up online.
+2. Your first box will be shipped out promptly, filled with handpicked teas and surprises.
+3. Sit back, relax, and savor the pleasure of discovering new teas delivered to your doorstep each month.
+
+**Give the Gift of Tea:**
+Share the love of tea with friends and family by gifting a Cass' Teas Subscription Box. Perfect for tea enthusiasts, curious beginners, or anyone in need of a little extra joy in their lives.
+
+By offering a subscription box, Cass' Teas can cultivate a loyal customer base, provide a convenient way for customers to explore their tea offerings, and create a recurring revenue stream for the business. Adjustments can be made based on Cass' Teas' branding, pricing strategy, and target audience preferences.
+
+
+*Form*
+--------
+How many teas would you like?
+
+2 pouches     4 pouches
+
+What kind of tea are you looking forward to?
+
+Random   Black teas   Green teas
+
+How often would you like to recieve a subscription box?
+
+Monthly      Every 2 Months     Every 3 Months
+--------
+
+Add to cart- button

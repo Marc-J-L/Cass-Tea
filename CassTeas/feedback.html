@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Website of Cass Teas">
+    <meta name="Keywords" content="CassTeas, Cass, Teas, Tea ">
+    <meta name="author" content="Israel U.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/dist/css/custom.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logoicon.png">
+    <script src="script/feedback.js" defer></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+    <title>Feedback</title>
+
+</head>
+<body>
+    <div class="container border">
+
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container">
+          
+                    <a class="navbar-brand" href="main_sm.html">
+                      <img src="images/nav-logo.png" alt="Logo-CassTeas" title="Logo-CassTeas" width="150">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                      aria-controls="#offcanvas" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas">
+          
+                      <div class="offcanvas-body">
+                        <ul class="navbar-nav flex-grow-1 justify-content-between">
+                          <li class="nav-item"><a class="nav-link" href="main_sm.html">Home</a></li>
+                          <li class="nav-item"><a class="nav-link active" href="our-tea.html">Our Teas</a></li>
+                          <li class="nav-item"><a class="nav-link" href="subscribe-form.html">Subscribe</a></li>
+                          <li class="nav-item"><a class="nav-link" href="wellness.html">Wellness</a></li>
+                          <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                          <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">
+                              <svg class="bi" width="24" height="24">
+                                <use xlink:href="#cart" />
+                              </svg>
+                            </a></li>
+                        </ul>
+                        <ul class="navbar-nav">
+                          <li class="nav-item"><a class="nav-link" href="#">Fr</a></li>
+                          <li class="nav-item"><a class="nav-link active" href="#">En</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                </nav>
+          
+            </div> 
+        <div class="row" id="line-t">
+        <p></p>
+        </div>
+    <div class="row" id="main-content">
+        
+        <main class="main-content " id="MainContent" tabindex="-1">
+            <div class="page width">
+                <div class="section-header text-center mt-5">
+                    <br>
+                    <h1>Feedback</h1>
+                    <br>
+                </div>
+                <div class="text-justify p-5">
+                    <div class="">We invite tea enthusiasts and curious minds alike to share their thoughts, stories, and
+                        questions about the wonderful world of tea. Whether you're a seasoned connoisseur or
+                        just dipping your toes into the soothing brews, your experiences and inquiries are
+                        valued. Feel free to reach out, sharing your favorite blends, cherished tea moments, or
+                        seeking advice on discovering new flavors. Let's cultivate a vibrant community where the
+                        love for tea is celebrated, and knowledge is exchanged. Your words are the steeping
+                        grounds for a rich dialogue, so don't hesitate to connect with us and join the
+                        conversation about the magic of tea.</div>
+                    <hr>
+                </div>
+                <div class="row mx-5">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <div class="contact-form form-vertical">
+                            <form method="post" id="ContactForm" accept-charset="utf-8" class="row g-3" action="thank-you.html">
+
+                                <div class="col-md-6">
+                                    <label for="ContactForm-first_name">First Name*</label>
+                                    <input required="required" type="text" id="ContactForm-first_name"
+                                        name="contact[first_name]" autofocus="autofocus" value="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="ContactForm-last_name">Last Name*</label>
+                                    <input required="required" type="text" id="ContactForm-last_name"
+                                        name="contact[last_name]" value="">
+
+                                </div>
+                                <label for="ContactForm-email">Email*</label>
+                                <input required="required" type="email" id="ContactForm-email" name="contact[email]"
+                                    autocapitalize="off" value="">
+
+                                <label>Tell us which are your favorites fom Cass Tea's</label>
+                                
+                                <!--Start of the multiple select-->
+                                 <div class="col-md-6">
+                                    <select id="productSelect" multiple="multiple" size="5" onchange="selectedProducts()">
+                                        <option value="Blueberry Bliss Tea">Blueberry Bliss Tea</option>
+                                        <option value="Earl Grey Lavender Tea">Earl Grey Lavender Tea</option>
+                                        <option value="Genmaicha Toasted Rice Tea">Genmaicha Toasted Rice Tea</option>
+                                        <option value="Golden Milk Chai">Golden Milk Chai</option>
+                                        <option value="Jasmine Pearl Tea">Jasmine Pearl Tea</option>
+                                    </select>
+                                 </div>
+
+                                 <div class="col-md-6" id="displayTeas"></div>
+
+                                <!--Start of the multiple select-->
+                                <input type="submit" class="btn btn-secondary btn-sm" value="submit">
+
+                            </form>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <div class="row" id="line-b">
+        <p></p>
+    </div>
+    <footer>
+        <div class="row  text-light" id="nav-b">
+          <div class="col-xl-3 justify-content-center mt-4">
+            <p style="color: black;">&copy; 2024. Team6 All Rights Reserved.</p>
+          </div>
+          <div class="col-xl-8" id="navbar-button">
+            <ul class="nav justify-content-center  mt-3">
+              <li class="nav-item"><a href="index.html" class="nav-link text-dark">Home</a></li>
+              <li class="nav-item"><a href="our-tea.html" class="nav-link text-dark">Our Teas</a></li>
+              <li class="nav-item"><a href="subscribe-form.html" class="nav-link text-dark">Subscribe</a>
+              </li>
+              <li class="nav-item"><a href="wellness.html" class="nav-link text-dark">Wellness</a></li>
+              <li class="nav-item"><a href="about-us.html" class="nav-link text-dark">About Us</a></li>
+              <li class="nav-item"><a href="contact-us.html" class="nav-link text-dark">Contact Us</a></li>
+  
+            </ul>
+          </div>
+          <div class="col-xl-1" id="navbar-button-i">
+            <ul class="col-xl-4 justify-content-center list-inline d-flex mt-4">
+              <li class="ms-3"><a class="text-body-secondary " href="https://about.instagram.com/" target="_blank"><i
+                    class="bi bi-instagram"></i></a>
+              </li>
+              <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/" target="_blank"><i
+                    class="bi bi-facebook"></i></a>
+              </li>
+              <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/?lang=en-ca" target="_blank"><i
+                    class="bi bi-twitter-x"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+    </footer>
+    </div>
+</body>
+</html>

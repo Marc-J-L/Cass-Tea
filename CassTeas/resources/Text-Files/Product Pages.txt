@@ -1,0 +1,49 @@
+Product Pages
+
+Product #1
+-------------
+Title:
+Earl Grey Lavender
+
+Price:
+$10
+
+Description:
+Crafted with utmost care and expertise, this artisanal loose leaf tea combines the timeless elegance of Earl Grey with the delicate allure of lavender petals.
+
+Ingredients: 
+Black Tea Leaves, Bergamot Oil, Lavender Petals
+
+Product 2
+----------------
+Title:
+Golden Milk Chai
+
+Price:
+$15
+
+Description:
+Inspired by the centuries-old tradition of Ayurveda, this artisanal loose leaf blend invites you to indulge in a golden elixir that nourishes both body and soul.
+
+Ingredients: 
+Black Tea Leaves, Tumeric, Ginger, Cinnamon, Cardamom, Cloves, Black Pepper
+
+Title:
+Genmaicha Toasted Rice
+
+Price:
+ $15
+
+Japanese green tea combined with toasted rice kernels, offering a nutty and toasty flavor profile.
+
+Description:
+Indulge in the rich and comforting flavor of our Genmaicha Toasted Rice tea. Crafted from high-quality Japanese green tea leaves delicately blended with toasted rice kernels, this unique infusion offers a delightful harmony of nutty and toasty notes. With its soothing aroma and smooth taste, our Genmaicha Toasted Rice tea provides a cozy escape with every sip. Elevate your tea-drinking experience and savor the warmth of tradition in every cup.
+ 
+Ingredients: 
+Japanese green tea leaves, Toasted rice kernels
+
+Blueberry Bliss: $15
+
+Experience a burst of fruity delight with our Blueberry Bliss tea blend. Crafted with care, this vibrant infusion combines the robust richness of black tea with the sweet tanginess of blueberries and the subtle tartness of elderberries. Each sip reveals a symphony of flavors, from the luscious sweetness of ripe blueberries to the refreshing zest of elderberries, creating a truly blissful tea-drinking experience. Whether enjoyed hot or iced, our Blueberry Bliss blend is sure to brighten your day and tantalize your taste buds with its irresistible aroma and bold flavor profile.
+
+Ingredients: Black tea leaves,Blueberries,Elderberries

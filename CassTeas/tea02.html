@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Website of the Cass Teas">
+    <meta name="Keywords" content="CassTeas, Cass, Teas, Tea ">
+    <meta name="author" content="Jie Li">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="dist/css/custom.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logoicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    
+    <title>CassTeas Tea02</title>
+    <style>
+        .wrapper {
+          min-width: 350px;
+          max-width: 400px;
+          display: flex;
+          justify-content: flex-end;
+        }
+    
+        .avatar {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          overflow: hidden;
+          background: url(./images/avatar.jpg) no-repeat center / cover;
+          margin-right: 20px;
+        }
+    
+        .wrapper textarea {
+          outline: none;
+          border-color: transparent;
+          resize: none;
+          background: #f5f5f5;
+          border-radius: 4px;
+          width: 250px;
+          padding: 10px;
+          transition: all 0.5s;
+          height: 60px;
+        }
+    
+        .wrapper textarea:focus {
+          border-color: #e4e4e4;
+          background: #fff;
+          height: 90px;
+        }
+    
+        .wrapper button {
+          background: #cca4c5;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          margin-left: 10px;
+          width: 70px;
+          height: 30px;
+          cursor: pointer;
+        }
+    
+        .wrapper .total {
+          margin-right: 80px;
+          color: #999;
+          margin-top: 5px;
+          opacity: 0;
+          transition: all 0.5s;
+        }
+    
+        .list {
+          width: 350px;
+          
+          margin-left: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    
+        .list .item {
+          width: 100%;
+          display: flex;
+        }
+    
+        .list .item .info {
+          
+          border-bottom: 1px dashed #e4e4e4;
+          padding-bottom: 10px;
+          align-items: center;
+          justify-content: center;
+        }
+    
+        .list .item p {
+          margin: 0;
+          width: 250px;
+
+        }
+    
+        .list .item .name {
+          color: #999;
+          font-size: 14px;
+          font-weight: bold;
+        }
+    
+        .list .item .text {
+          color: #333;
+          padding: 10px 0;
+          
+        }
+    
+        .list .item .time {
+          color: #999;
+          font-size: 12px;
+        }
+
+        #label-t  {
+          height: 700px;
+          align-items: center;
+        }
+        #comment {
+          height: 350px;
+          width: 550px;
+          display: flex;
+          flex-direction: column;
+          
+        }
+
+        .list .text {
+          width: 400px;
+        }
+
+        #addCart {
+          display: flex;
+          margin-left: 80px;
+          margin-top: auto;
+          font-weight:600;
+          
+        }
+        input {
+          width: 60px;
+          margin-right: 50px;
+        }
+
+        #addCart input  {
+          height: 30px;
+          width: 50px;
+        }
+
+      .bi {
+        color: black;
+      }
+
+        
+    </style>
+
+
+</head>
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+
+    <symbol id="cart" viewBox="0 0 16 16">
+      <path
+        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+    </symbol>
+
+  </svg>
+
+  <div class="container border">
+
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+          <a class="navbar-brand" href="main_sm.html">
+            <img src="images/nav-logo.png" alt="Logo-CassTeas" title="Logo-CassTeas" width="150">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+            aria-controls="#offcanvas" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas">
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 justify-content-between">
+                <li class="nav-item"><a class="nav-link" href="main_sm.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="our-tea.html">Our Teas</a></li>
+                <li class="nav-item"><a class="nav-link" href="subscribe-form.html">Subscribe</a></li>
+                <li class="nav-item"><a class="nav-link" href="wellness.html">Wellness</a></li>
+                <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                    <svg class="bi" width="24" height="24">
+                      <use xlink:href="#cart" />
+                    </svg>
+                  </a></li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Fr</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">En</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+
+    </div>
+      
+      
+      
+    <div class="row" id="line-t">
+    <p></p>
+    </div>
+    <div class="row  align-items-center " id="main-content700" >
+        <div id="label-t">
+            <div class="col-sm-4" >  
+                <img src="images/genmaichabag.png" alt="img-blueberrytea" class="label">
+
+            </div>
+            <div class="col-sm-4">
+                <div class="label">
+                    <article >
+                        <h4>Genmaicha Toasted Rice</h4>
+                        <br>
+                        <h5 class="text-danger">Price: $15</h5>
+                        
+                        <p>Description: <br> Indulge in the rich and comforting flavor of our 
+                            Genmaicha Toasted Rice tea. Crafted from high-quality Japanese 
+                            green tea leaves delicately blended with toasted rice kernels, 
+                            this unique infusion offers a delightful harmony of nutty and 
+                            toasty notes. With its soothing aroma and smooth taste, our 
+                            Genmaicha Toasted Rice tea provides a cozy escape with every sip. 
+                            Elevate your tea-drinking experience and savor the warmth of 
+                            tradition in every cup.</p>
+                        <p>Ingredients: <br> Japanese green tea leaves, Toasted rice kernels.</p> 
+                        <br>
+                        <a href="our-tea.html" id="returnb">Chose the others</a>
+                        
+                    </article>
+                    
+                </div>
+
+            </div>
+            <div class="col-sm-4">
+                <div id="comment" >
+
+                    <div class="wrapper">
+                      <!--<i class="avatar"></i>-->
+                      <textarea id="tx" placeholder="Please share your experience" rows="2" maxlength="200"></textarea>
+                      <button>Submit</button>
+                    </div>
+  
+                    <div class="wrapper">
+                      <span class="total">0/100</span>
+                    </div>
+  
+                    <div class="list">
+                      <div class="item" style="display: none;">
+                      <!--<i class="avatar"></i>-->
+                      <div class="info">
+                      <p class="name">Customer</p>
+                      <p class="text">thank you.</p>
+                      <p class="time">2024-03-11 20:29:21</p>
+                      </div>
+                      
+                    </div>
+  
+                    
+  
+                  </div>
+                  <div id="addCart">
+                    <label for="tea02q">Quantity:</label>
+                    <input type="number" min="0" maxlength="1" value="0" id="tea02q" >
+                    <p>Total Price: $</p>
+                    <p id="price">0.00</p>
+                  </div>
+                    
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="line-b">
+        <p></p>
+    </div>
+    
+    <footer>
+      <div class="row  text-light" id="nav-b">
+        <div class="col-xl-3 justify-content-center mt-4">
+          <p style="color: black;">&copy; 2024. Team6 All Rights Reserved.</p>
+        </div>
+        <div class="col-xl-8" id="navbar-button">
+          <ul class="nav justify-content-center  mt-3">
+            <li class="nav-item"><a href="index.html" class="nav-link text-dark">Home</a></li>
+            <li class="nav-item"><a href="our-tea.html" class="nav-link text-dark">Our Teas</a></li>
+            <li class="nav-item"><a href="subscribe-form.html" class="nav-link text-dark">Subscribe</a>
+            </li>
+            <li class="nav-item"><a href="wellness.html" class="nav-link text-dark">Wellness</a></li>
+            <li class="nav-item"><a href="about-us.html" class="nav-link text-dark">About Us</a></li>
+            <li class="nav-item"><a href="contact-us.html" class="nav-link text-dark">Contact Us</a></li>
+
+          </ul>
+        </div>
+        <div class="col-xl-1" id="navbar-button-i">
+          <ul class="col-xl-4 justify-content-center list-inline d-flex mt-4">
+            <li class="ms-3"><a class="text-body-secondary " href="https://about.instagram.com/" target="_blank"><i
+                  class="bi bi-instagram"></i></a>
+            </li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/" target="_blank"><i
+                  class="bi bi-facebook"></i></a>
+            </li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/?lang=en-ca" target="_blank"><i
+                  class="bi bi-twitter-x"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+    
+  <script>
+      const tx = document.querySelector('#tx')
+      const total = document.querySelector('.total')
+      const btn = document.querySelector('.wrapper button')
+      const time = document.querySelector('.time')
+  
+      const item = document.querySelector('.item')
+      const text = document.querySelector('.text')
+  
+      const tea02q = document.querySelector('#addCart input')
+      const price = document.getElementById('price')
+      console.log(tea02q.value);
+  
+      tea02q.addEventListener('input', function() {
+        let total = tea02q.value * 15.00
+        price.innerHTML = total.toFixed(2)
+      })
+  
+  
+      tx.addEventListener('focus', function () {
+        total.style.opacity = 1
+      })
+  
+      tx.addEventListener('blur', function () {
+        total.style.opacity = 0
+      })
+  
+      tx.addEventListener('input', function () {
+        total.innerHTML = `${tx.value.length}/100`
+      })
+  
+      tx.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+          if (tx.value.trim()) {
+            item.style.display = 'block'
+            text.innerHTML = tx.value
+          }
+          tx.value = ''
+          total.innerHTML = '0/100'
+        }
+      })
+  
+      btn.addEventListener('click',function() {
+        if (tx.value.trim()) {
+          item.style.display = 'block'
+          text.innerHTML = tx.value
+        }
+        tx.value = ''
+        total.innerHTML = '0/100'
+        const currentDate = new Date();
+        const year = currentDate.getFullYear();
+        const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+        const day = String(currentDate.getDate()).padStart(2, '0');
+        const hours = String(currentDate.getHours()).padStart(2, '0');
+        const minutes = String(currentDate.getMinutes()).padStart(2, '0');
+        const seconds = String(currentDate.getSeconds()).padStart(2, '0');
+  
+        const formattedDateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+  
+        time.innerHTML = formattedDateTime
+      })
+  
+  
+    </script>
+</body>
+</html>

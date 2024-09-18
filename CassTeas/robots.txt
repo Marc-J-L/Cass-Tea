@@ -1,0 +1,15 @@
+User-agent: Googlebot
+Disallow: /resources/
+Disallow: /dist/
+Disallow: /scss/
+Disallow: /images/
+Disallow: /404.html
+Disallow: /thank-you.html
+
+User-agent: *
+Allow: /index.html
+Allow: /our-teas.html
+Allow: /about-us.html
+Allow: /contact-us.html
+
+Sitemap: https://www.cassteas.com/sitemap.xml

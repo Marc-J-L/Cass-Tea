@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* mq.css */
+/* CSS Document for the CSS Media Queries Web page */
+/* Script Date: February 18, 2024 */
+/* Developed by: Jie Li */
+
+
+/* default (base) style */
+@import url("base.css");
+
+/* phone style */
+@import url("phone.css") only screen and (max-width:992px);
+
+/* tablet style */
+@import url("tablet.css") only screen and (min-width:993px) and (max-width:1200px);
+
+/* desktop style */
+@import url("main-home.css") only screen and (min-width:1201px);
